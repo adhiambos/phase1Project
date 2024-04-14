@@ -43,33 +43,34 @@ body {
         button:hover {
             background-color: #0056b3;
         }
-        .book-quote img {
-            position: relative;
-            float: inline-end;
-            width: 400px;
-            height: 400px;
-        }
-        .book-quote:hover .quote-tooltip {
-            visibility: visible;
-            opacity: 1;
-            transition: opacity 0.5s ease-in-out;
-        }
-        .quote-tooltip {
-            visibility: hidden;
-            opacity: 0;
-            position: absolute;
-            background-color: red;
-            color: #fff;
-            padding: 5px;
-            border-radius: 5px;
-            font-size: 14px;
-            z-index: 1;
-            bottom: 125%; /* Position the tooltip above the text */
-            left: 50%;
-            margin-left: -60px; /* Use half of the width to center the tooltip */
-            width: 120px;
-            text-align: center;
-        }
+        .book-quote {
+    position: relative;
+    display: inline-block;
+}
+
+.quote-tooltip {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    background-color: red;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    z-index: 1;
+    bottom: 125%; /* Position the tooltip above the text */
+    left: 50%;
+    margin-left: -60px; /* Use half of the width to center the tooltip */
+    width: 120px;
+    text-align: center;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.book-quote:hover .quote-tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
         #results-container {
             background-color: #fff;
             padding: 20px;
