@@ -12,30 +12,31 @@
       }</style>
 </head>
 <body>
-  <h1>Books Galore</h1>
+    <h1>Books Galore</h1>
     <div class="book-quote">
- <img src="./libquote.jpeg" alt="Library Quote">
- <div class="quote-tooltip">Ignorance is not an excuse</div>
-</div>
+        <img src="./libquote.jpeg" alt="Library Quote">
+        <div class="quote-tooltip">Ignorance is not an excuse</div>
+    </div>
 
     <section id="search-section">
-      <form id="titleSearch">
-        <label for="search-title">Search by Title:</label>
-        <input type="text" id="search-title" placeholder="Enter your search term">
-        <button type="submit" id="titleButton">Search</button>
-      </form>
-      <form id="authorSearch">
-        <label for="search-author">Search by Author:</label>
-        <input type="text" id="search-author" placeholder="Enter your search term">
-        <button type="submit" id="authorButton">Search</button>
-      </form>
-      <form id="favoriteBooks">
-        <label for="favorite-books">Favorite Books:</label>
-        <input type="text" id="favorite-books" placeholder="Enter your favorite books">
-        <button type="submit" id="favBooks">Enter</button>
-      </form>
+        <form id="titleSearch">
+            <label for="search-title">Search by Title:</label>
+            <input type="text" id="search-title" placeholder="Enter your search term">
+            <button type="submit" id="titleButton">Search</button>
+        </form>
+        <form id="authorSearch">
+            <label for="search-author">Search by Author:</label>
+            <input type="text" id="search-author" placeholder="Enter your search term">
+            <button type="submit" id="authorButton">Search</button>
+        </form>
+        <form id="editionsSearch"> <!-- Added editionsSearch form -->
+            <label for="search-editions">Search by Editions:</label>
+            <input type="text" id="search-editions" placeholder="Enter your search term">
+            <button type="submit" id="editionsButton">Search</button>
+        </form>
     </section>
     <div id="results-container"></div>
     <script src="./src/script.js"></script>  
 </body>
+
 </html>
