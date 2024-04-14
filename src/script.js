@@ -94,3 +94,11 @@ document.addEventListener('DOMContentLoaded', function() {
     bookQuoteImage.addEventListener('mouseover', increaseImageSize);
     bookQuoteImage.addEventListener('mouseout', decreaseImageSize);
 });
+
+const refreshBtn = document.getElementById("btnRefresh");
+
+function handleClick() {
+ window.location.reload();
+}
+
+refreshBtn.addEventListener("click", handleClick);
