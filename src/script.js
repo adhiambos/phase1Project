@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Function to fetch data from Open Library Search API
     function fetchBooks(query, type) {
-        const url = `https://openlibrary.org/search.json?${type}=${query}`;
+        const url = `https://openlibrary.org/search.json?q=${query}`;
 
         fetch(url)
             .then(response => response.json())
@@ -14,7 +13,6 @@ document.addEventListener('DOMContentLoaded', function() {
             });
     }
 
-    // Function to display search results
     function displayResults(books) {
         const resultsContainer = document.getElementById('results-container');
         resultsContainer.innerHTML = '';
