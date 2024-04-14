@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
             });
     }
 
-    / Function to display search results
+    // Function to display search results
     function displayResults(books) {
         const resultsContainer = document.getElementById('results-container');
         resultsContainer.innerHTML = '';
