@@ -1,43 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Library Hub</title>
     <link rel="stylesheet" href="./css/style.css">
-</head>
-<body style="background-image: url(./bgbook.jpg);">
-    <h1>Books Galore
-    <button id="btnRefresh" type="button">
-    Refresh page
-</button>
+  </head>
+  <body style="background-image: url(./bgbook.jpg);">
+    <h1>Books Galore <button id="btnRefresh" type="button"> Refresh page </button>
     </h1>
     <div class="book-quote">
-    <img src="./libquote.jpeg" alt="Library Quote">
-    <div class="quote-tooltip">Ignorance is not an excuse</div>
-</div>
-
-
+      <img src="./libquote.jpeg" alt="Library Quote">
+      <div class="quote-tooltip">Ignorance is not an excuse</div>
+    </div>
     <section id="search-section">
-        <form id="titleSearch">
-            <label for="search-title">Search by Title:</label>
-            <input type="text" id="search-title" placeholder="Enter your search term">
-            <button type="submit" id="titleButton">Search</button>
-        </form>
-        <form id="authorSearch">
-            <label for="search-author">Search by Author:</label>
-            <input type="text" id="search-author" placeholder="Enter your search term">
-            <button type="submit" id="authorButton">Search</button>
-        </form>
-        <form id="editionsSearch"> <!-- Added editionsSearch form -->
-            <label for="search-editions">Search by Editions:</label>
-            <input type="text" id="search-editions" placeholder="Enter your search term">
-            <button type="submit" id="editionsButton">Search</button>
-        </form>
+      <form id="titleSearch">
+        <label for="search-title">Search by Title:</label>
+        <input type="text" id="search-title" placeholder="Enter your search term">
+        <button type="submit" id="titleButton">Search</button>
+      </form>
+      <form id="authorSearch">
+        <label for="search-author">Search by Author:</label>
+        <input type="text" id="search-author" placeholder="Enter your search term">
+        <button type="submit" id="authorButton">Search</button>
+      </form>
+      <form id="editionsSearch">
+        <!-- Added editionsSearch form -->
+        <label for="search-editions">Search by Editions:</label>
+        <input type="text" id="search-editions" placeholder="Enter your search term">
+        <button type="submit" id="editionsButton">Search</button>
+      </form>
     </section>
     <div id="results-container"></div>
-
-    <script src="./src/script.js"></script>  
-</body>
-
+    <script src="./src/script.js"></script>
+  </body>
 </html>
