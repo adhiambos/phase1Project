@@ -47,4 +47,15 @@ Contributions are welcome! Please feel free to submit a pull request or open an 
 - **DOM Manipulation**: Used to dynamically create and update HTML elements based on the fetched data.
 - **Event Listeners**: Used to handle user interactions such as form submissions and keyboard navigation.
 
+## Support and contact details
+github.com/adhiambos
+
+## Author
+Sharon Adhiambo Odhiambo
+
+### License
+License: Open source license
+
+
+
 
