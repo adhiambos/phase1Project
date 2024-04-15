@@ -7,17 +7,20 @@ document.addEventListener('DOMContentLoaded', function () {
 
       // Fetch the data from the URL
       fetch(url)
-         .then(response => response.json()) // Parse the response as JSON
+         .then(response => response.json()) 
          .then(data => {
             // Display the fetched books
             displayResults(data.docs);
          })
          .catch(error => {
-            // Log any errors and display an error message
+            console.log("not found");
+         
             console.error('Error fetching data:', error);
             document.getElementById('results-container').innerHTML = '<p>Error fetching data. Please try again.</p>';
          });
    }
+
+   
 
    // Function to display the fetched books in the results container
    function displayResults(books) {
