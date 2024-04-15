@@ -32,3 +32,8 @@ Library Hub is a web application that allows users to search for books by title,
 - **Refresh Page**: Click the "Refresh page" button to reload the page.
 - **Keyboard Navigation**: Use the arrow keys to navigate between form inputs.
 - **Mouseover Effect**: Hover over the library quote image to see a scaled-up effect.
+
+# Contributing
+
+Contributions are welcome! Please feel free to submit a pull request or open an issue if you find any bugs or have suggestions for improvements.
+
