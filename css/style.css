@@ -38,7 +38,7 @@ label {
   margin-bottom: 5px;
 }
 input[type="text"] {
-  width: 50%; /* Adjust width to fit container */
+  width: 50%;
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -65,15 +65,15 @@ button:hover {
   visibility: hidden;
   opacity: 0;
   position: absolute;
-  background-color: red;
+  background-color: olive;
   color: #fff;
   padding: 5px;
   border-radius: 5px;
   font-size: 14px;
   z-index: 1;
-  bottom: 125%; /* Position the tooltip above the text */
+  bottom: 125%; 
   left: 50%;
-  margin-left: -60px; /* Use half of the width to center the tooltip */
+  margin-left: -60px; 
   width: 120px;
   text-align: center;
   transition: opacity 0.5s ease-in-out;
