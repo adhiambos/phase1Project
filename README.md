@@ -1,6 +1,6 @@
-# Project Title
+# Library Hub
 
-This is a single page application that can be used to return available books. Books can be searched using the title of the book, the author of the book and the edition of the book.
+Library Hub is a web application that allows users to search for books by title, author, or editions. It fetches data from the Open Library API and displays the results in a user-friendly format.
 
 ## Acknowledgements
 
