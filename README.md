@@ -2,6 +2,10 @@
 
 Library Hub is a web application that allows users to search for books by title, author, or editions. It fetches data from the Open Library API and displays the results in a user-friendly format.
 
+## Date 
+
+15/04/2024
+
 ## Features
 
 - Search books by title, author, or editions.
